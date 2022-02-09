@@ -1,0 +1,58 @@
+hr {
+    color: blanchedalmond;
+    width: 100px;
+    border-style: dotted;
+    border-width: 4px;
+    height: 50%;
+    border-style: dotted none none;
+}
+h1, h2, h3 {color: darkred;}
+img{margin: 20px 20px20px20px;}
+
+li {
+color: brown;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 40px;
+}
+
+button:hover, img:active {
+box-shadow:-webkit-box-shadow: 6px 36px 24px -11px rgba(255,0,136,1);
+-moz-box-shadow: 6px 36px 24px -11px rgba(255,0,136,1);
+box-shadow: 6px 36px 24px -11px rgba(255,0,136,1);
+border: 2px solid white;
+background:greenyellow;
+transform: rotate(360deg);
+transition: 1s;
+}
+
+.card .container span {
+    color: lightgreen;
+}
+
+.especial {
+    color: deeppink;
+}
+
+.primary {
+    background-color: gold;
+    color:black;
+}
+
+#especial2 {
+background-color: indianred;
+color: lavenderblush;
+}
+
+.gradient-bg {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.card {
+    background-color:mintcream;
+    width: 150px;
+}
