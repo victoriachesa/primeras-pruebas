@@ -12,7 +12,7 @@ img{margin: 20px 20px20px20px;}
 li {
 color: brown;
 }
-
+0
 button {
     cursor: pointer;
     padding: 10px;
@@ -32,6 +32,17 @@ transition: 1s;
 
 .card .container span {
     color: lightgreen;
+}
+
+.card h4 .card p {
+    padding: 0x;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .especial {
@@ -54,5 +65,6 @@ color: lavenderblush;
 
 .card {
     background-color:mintcream;
-    width: 150px;
+    padding: 20px;
+    margin: 0 0 20px 0;
 }
