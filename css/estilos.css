@@ -68,3 +68,19 @@ color: lavenderblush;
     padding: 20px;
     margin: 0 0 20px 0;
 }
+
+header {
+    background-color: whitesmoke;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
