@@ -1,0 +1,16 @@
+.fab {
+position: fixed;
+right: 16px;
+bottom: 16px;
+}
+
+.fab a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    .fab {
+        display: none
+    }
+}
