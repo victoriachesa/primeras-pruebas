@@ -1,0 +1,35 @@
+.card {
+    background-color: darkkhaki;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.mb-xl {
+    margin-bottom: 100px;
+}
+
+/* .flex .card:nth-child(2) {
+    flex-grow: 3;
+} */
+
+.justify {
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
