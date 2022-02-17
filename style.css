@@ -5,10 +5,10 @@ body {
     font-family: 'Lora', serif;
 }
 
-mark {
+/*mark {
     color:darkgreen;
     background-color:rgba(228, 153, 197, 0.331)
-}
+}*/
 
 :root {
     --bs-blue: #0d6efd;
@@ -69,8 +69,9 @@ mark {
 } */
 
 /* Bootstrap fixes*/
-.lead {
-    color: grey;
+
+.d-flex {
+    justify-items: left;
 }
 
 .fab {
